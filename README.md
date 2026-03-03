@@ -19,6 +19,9 @@ This project builds a reproducible geospatial workflow to identify and rank opti
 - Digital Elevation Model (DEM) raster
 
 ## Methodology
+### Workflow Diagram
+![Workflow Diagram](outputs/workflow_diagram.png)
+
 1. Floodplain Exclusion
 Removed Special Flood Hazard Areas (SFHA):
 - AE
@@ -50,6 +53,7 @@ Parcels exceeding 5° average slope removed.
 - Highest suitability parcel > 80% composite score
 
 Final deliverable map:
+![Solar Suitability Map](outputs/Solar Suitability Map.png)
 
 ## Technologies Used
 - PostgreSQL + PostGIS
