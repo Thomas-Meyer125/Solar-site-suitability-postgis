@@ -19,13 +19,12 @@ This project builds a reproducible geospatial workflow to identify and rank opti
 - Digital Elevation Model (DEM) raster
 
 ## Methodology
-## Floodplain Exclusion
+1. Floodplain Exclusion
 Removed Special Flood Hazard Areas (SFHA):
 - AE
 - AO
 - A
-
-1. Challenge encountered:
+Challenge encountered:
 Flood classification inconsistencies (e.g., "AREA NOT INCLUDED" vs "X") required manual verification and schema cleaning.
 
 2️. Minimum Parcel Size Filter
