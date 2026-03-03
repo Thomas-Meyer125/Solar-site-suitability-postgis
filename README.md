@@ -54,7 +54,7 @@ Parcels exceeding 5° average slope removed.
 
 Final deliverable map:
 
-![Solar Suitability Map](outputs/Solar%Suitability%Map.png)
+![Solar Suitability Map](outputs/solar_suitability_map.png)
 
 ## Technologies Used
 - PostgreSQL + PostGIS
