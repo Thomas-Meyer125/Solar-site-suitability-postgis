@@ -53,7 +53,7 @@ Parcels exceeding 5° average slope removed.
 - Highest suitability parcel > 80% composite score
 
 Final deliverable map:
-![Solar Suitability Map](outputs/Solar Suitability Map.png)
+![Solar Suitability Map]("outputs/Solar Suitability Map.png")
 
 ## Technologies Used
 - PostgreSQL + PostGIS
