@@ -27,13 +27,16 @@ Removed Special Flood Hazard Areas (SFHA):
 
 1. Challenge encountered:
 Flood classification inconsistencies (e.g., "AREA NOT INCLUDED" vs "X") required manual verification and schema cleaning.
+
 2️. Minimum Parcel Size Filter
 Parcels filtered to ≥ 20,000 m² (~5 acres) to reflect utility-scale feasibility.
+
 3️. Slope Derivation (Raster Analysis)
 DEM processed in PostGIS using:
 ST_Slope()
 Zonal statistics per parcel
 Parcels exceeding 5° average slope removed.
+
 4️. Suitability Scoring
 - Composite index:
 - Suitability Score =
