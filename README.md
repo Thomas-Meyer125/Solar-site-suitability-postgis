@@ -24,6 +24,7 @@ Removed Special Flood Hazard Areas (SFHA):
 - AE
 - AO
 - A
+
 Challenge encountered:
 Flood classification inconsistencies (e.g., "AREA NOT INCLUDED" vs "X") required manual verification and schema cleaning.
 
