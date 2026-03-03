@@ -29,6 +29,7 @@ Removed Special Flood Hazard Areas (SFHA):
 - Zone AO - 100-year shallow flooding zone (1–3 ft depth)
 
 Challenge encountered:
+Areas classified as Zone X (outside the 1% annual floodplain) were retained as suitable from a flood-risk perspective.
 Flood classification inconsistencies (e.g., "AREA NOT INCLUDED" vs "X") required manual verification and schema cleaning.
 
 2️. Minimum Parcel Size Filter
