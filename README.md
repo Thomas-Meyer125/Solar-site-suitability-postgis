@@ -24,9 +24,9 @@ This project builds a reproducible geospatial workflow to identify and rank opti
 
 1. Floodplain Exclusion
 Removed Special Flood Hazard Areas (SFHA):
-- AE
-- AO
-- A
+- Zone A - 100-year floodplain (no detailed study)
+- Zone AE - 100-year floodplain with established Base Flood Elevation
+- Zone AO - 100-year shallow flooding zone (1–3 ft depth)
 
 Challenge encountered:
 Flood classification inconsistencies (e.g., "AREA NOT INCLUDED" vs "X") required manual verification and schema cleaning.
