@@ -1,5 +1,11 @@
 -- 04_zonal_statistics.sql
 
+ALTER TABLE parcels_no_flood
+ADD COLUMN area_m2 DOUBLE PRECISION;
+
+UPDATE parcels_no_flood
+SET area_m2 = ST_Area(geom);
+
 -- Calculate mean slope within each parcel
 
 CREATE TABLE parcel_slope_stats AS
