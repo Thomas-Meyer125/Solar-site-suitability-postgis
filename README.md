@@ -14,9 +14,12 @@ Utility-scale solar developers require:
 This project builds a reproducible geospatial workflow to identify and rank optimal parcels.
 
 ## Data Sources
-- County parcel polygons
-- FEMA DFIRM flood zones
-- Digital Elevation Model (DEM) raster
+- County parcel polygons (vector)
+- FEMA DFIRM flood hazard zones (vector)
+- USGS 10m Digital Elevation Model (raster)
+
+All datasets were reprojected to EPSG:26917 (NAD83 / UTM Zone 17N) 
+to enable accurate area and slope calculations in meters.
 
 ## Methodology
 ### Workflow Diagram
