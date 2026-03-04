@@ -11,9 +11,9 @@ This project uses publicly available geospatial datasets:
 3. Digital Elevation Model (DEM)  
    Source: USGS 3DEP 10m DEM
 
-Raw data are not redistributed in this repository due to licensing and file size constraints.
+Raw data is not redistributed in this repository due to licensing and file size constraints.
 
 To reproduce the analysis:
 - Download datasets from the sources above
-- Reproject to EPSG:26916
+- Reproject to EPSG:26917
 - Load into PostGIS using ogr2ogr or shp2pgsql
